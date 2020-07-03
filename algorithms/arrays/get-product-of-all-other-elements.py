@@ -1,8 +1,5 @@
 arr1 = [1, 2, 3, 4, 5]
 arr2 = [1, 2, 3]
-arr3 = [5]
-arr4 = []
-arr5 = [0]
 
 def products(nums):
     if len(nums) < 3:
@@ -38,8 +35,3 @@ print(results1)
 results2 = products(arr2)
 print(results2)
 results3 = products(arr3)
-print(results3)
-results4 = products(arr4)
-print(results4)
-results5 = products(arr5)
-print(results5)
