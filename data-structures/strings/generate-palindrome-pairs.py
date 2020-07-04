@@ -29,7 +29,7 @@ def palindrome_pairs(words):
 print(palindrome_pairs(words)) # [(0, 1), (1, 0), (3, 4), (4, 3), (5, 2)]
 
 
-
+# with dictionary, O(n X c^2)
 def is_another_palindrome(word):
     return word == word[::-1]
 
