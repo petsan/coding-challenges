@@ -41,7 +41,7 @@ def reconstruct(preorder, inorder):
     root = preorder[0]
     root_i = inorder.index(root)
     root.left = reconstruct(preorder[1:1 + root_i], inorder[0:root_i])
-    root.rigth = reconstruct(preorder[1 + root_i:], inorder[root_i + 1:])
+    root.right = reconstruct(preorder[1 + root_i:], inorder[root_i + 1:])
 
     return root
     
