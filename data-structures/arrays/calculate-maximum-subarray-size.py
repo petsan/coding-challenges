@@ -23,10 +23,10 @@ def max_subarray_sum_brute(arr):
             current_max = max(current_max, sum(arr[i:j]))
     return current_max
 
-result1 = max_subarray_sum_brute(array1)
+# result1 = max_subarray_sum_brute(array1)
 result2 = max_subarray_sum_brute(array2)
-result3 = max_subarray_sum_brute(array3)
-print(result1, result2, result3)
+# result3 = max_subarray_sum_brute(array3)
+# print(result2)
 
 # Kadane's algorithm
 def max_subarray_sum_kadane(arr):

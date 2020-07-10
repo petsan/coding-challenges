@@ -16,7 +16,7 @@ def window(array):
             left = i
         elif array[i] != s[i]:
             right = i
-    return left, right
+    return left, right # tuple
     
 results = window(arr1)
 print(results)
